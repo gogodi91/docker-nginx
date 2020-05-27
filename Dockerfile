@@ -8,7 +8,7 @@ ENV OPENLDAP_ORG ""
 ENV PACKAGES_LIST "ca-certificates libpcre3-dev zlib1g-dev ldap-utils libldap2-dev libssl-dev gettext-base"
 ENV BUILD_PACKAGES_LIST "git gcc make wget"
 
-LABEL maintainer="Ravindra Bhadti"
+LABEL maintainer="Georgi Dimitrov <gogodi91@gmail.com>"
 
 #COPY resources/bin/nginx_run.sh /usr/local/bin/nginx_run.sh
 
